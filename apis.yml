@@ -1,7 +1,27 @@
 aid: alchemab-therapeutics
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/alchemab-therapeutics.png
 name: Alchemab Therapeutics
-description: Alchemab Therapeutics is a company surfaced as a portfolio company of dcvc and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Alchemab Therapeutics is a UK-based clinical-stage biotechnology company
+  developing next-generation antibody therapeutics for hard-to-treat diseases. Its
+  "Adaptive Immunity" platform identifies naturally resilient individuals, such as
+  long-term cancer survivors, and harnesses their protective antibodies, using
+  artificial intelligence and deep learning to translate these natural immune
+  responses into novel human-derived therapeutics across neurodegeneration,
+  oncology, and other areas of high unmet need. Alchemab was surfaced as a portfolio
+  company of DCVC and added to the API Evangelist network. As a research-stage
+  therapeutics company it publishes no public developer API program, SDKs, or
+  machine-readable API specifications at this time.
 url: https://raw.githubusercontent.com/api-evangelist/alchemab-therapeutics/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -14,9 +34,36 @@ created: '2026-07-17'
 modified: '2026-07-17'
 tags:
 - Company
+- Biotechnology
+- Pharmaceuticals
+- Antibody Therapeutics
+- Drug Discovery
+- Artificial Intelligence
+- Machine Learning
+- Immunology
+- Life Sciences
+- Healthcare
 apis: []
+common:
+- type: DomainSecurity
+  url: security/alchemab-therapeutics-domain-security.yml
+- type: Website
+  url: https://www.alchemab.com/
+- type: About
+  url: https://www.alchemab.com/about/
+- type: Blog
+  url: https://www.alchemab.com/news/
+- type: Support
+  url: https://www.alchemab.com/contact/
+- type: PrivacyPolicy
+  url: https://www.alchemab.com/privacy-policy/
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
